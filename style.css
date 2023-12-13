@@ -1,0 +1,27 @@
+/* In your "style.css" file */
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333; /* Background color for the navigation bar */
+}
+
+.nav-menu li {
+    display: inline;
+    margin-right: 20px; /* Adjust the spacing between menu items */
+}
+
+.nav-menu li:last-child {
+    margin-right: 0; /* Remove margin from the last item to avoid extra space */
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff; /* Text color for menu items */
+    font-weight: bold;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline; /* Add an underline on hover */
+}
