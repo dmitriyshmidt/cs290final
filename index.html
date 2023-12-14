@@ -3,26 +3,60 @@
     <head>
         <meta charset="utf-8">
         <title>"We Have Geeks4Geeks at Home"</title>
-        <link rel="stylesheet" href="/style.css">
-        <script src="/index.js" charset="utf-8" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js" charset="utf-8" defer></script>
     </head>
 
     <body>
         <header>
             <div class="header-image-container">
-                <img src="/dd.jpg" alt="Dev Discussions Logo">
+                <img src="dd.jpg" alt="Dev Discussions Logo">
             </div>
             <h1 class="site-title"><a href="#">Dev Discussions</a></h1>
+
+            <button id="navMenuButton" class="nav-menu-button">Menu</button>
         </header>
+        
+        <div id="navMenuModal" class="nav-menu-modal">
+            <div class="nav-menu-modal-content">
+                <span class="close">&times;</span>
+                <nav>
+                    <ul class="nav-menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Forums</a></li>
+                        <li><a href="#">Saved Posts</a></li>
+                        <li><a href="#">User Profile</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
         <main>
-            <nav>
-                <ul class="nav-menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Forums</a></li>
-                    <li><a href="#">User Profile</a></li>
-                    <li><a href="#">Saved Posts</a></li>
-                </ul>
-            </nav>
+            <!-- Forums Section -->
+            <section id="forums">
+                <h2>Latest Discussions</h2>
+                <!-- Sample Post-->
+                <article class="post">
+                    <h3><a href="#">Post Title Here</a></h3>
+                    <p>Post summary...</p>
+                </article>
+                <!-- More posts... -->
+            </section>
+
+            <!-- Saved Posts Section -->
+            <section id="saved-posts">
+                <h2>Saved Posts</h2>
+                <!-- List of saved posts... -->
+            </section>
+
+            <!-- Profile Details -->
+            <section id="user-profile">
+                <h2>Your Profile</h2>
+                <!-- Profile details... -->
+            </section>
         </main>
     </body>
 </html>
