@@ -13,47 +13,29 @@
 <body>
     <header>
         <div class="header-image-container">
-            <img src="../images/dd.png" alt="Dev Discussions Logo" class="header-image">
+            <img src="./images/dd.png" alt="Dev Discussions Logo" class="header-image">
         </div>
         <h1 class="site-title"><a href="#">Dev Discussions</a></h1>
-        <button id="navMenuButton" class="nav-menu-button">Menu</button>
     </header>
 
-    <div id="navMenuModal" class="nav-menu-modal hidden">
-        <div class="nav-menu-modal-content">
-            <ul class="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="saved-posts.html">Saved Posts</a></li>
-                <li><a href="user-profile.html">User Profile</a></li>
-            </ul>
-        </div>
-    </div>
-
     <main class="content">
-        <!-- Posts Section -->
-        <section id="posts">
-            <!-- Sample Post -->
-            <div class="post">
-                <div class="post-contents">
-                    <h3 class="post-title"><a href="#">Creating your first web app</a></h3>
-                    <p class="post-summary">This post is for anyone interested in learning about web development...</p>
-                    <div class="post-tags">
-                        <span class="tag">web-dev</span>
-                        <span class="tag">html</span>
-                        <span class="tag">beginner-friendly</span>        
-                        <!-- More tags... -->
-                    </div>
-                    <button class="helpful-button">
-                        <i class="fas fa-thumbs-up"></i> <span class="helpful-count">0</span>
-                    </button>
-                </div>
-            </div>
-            <!-- More posts... -->
-        </section>
+        <div id="account-entry" class="account-entry">
+            <section id="login-box" class="login-box">
+                <p class = "login-title">Log in Here</p>
+                <label for="login-username-input" class="username-title">Username: </label>
+                <input type="text" id="login-username-input"><br><br>
+                <label for="login-password-input" class="password-title">Password: </label>
+                <input type="text" id="login-password-input"><br><br>
+            </section>
+    
+            <section id="register-box" class="register-box">
+                <p class="register-title">Register Here</p>
+                <label for="register-username-input" class="username-title">Username: </label>
+                <input type="text" id="register-username-input"><br><br>
+                <label for="register-password-input" class="password-title">Password: </label>
+                <input type="text" id="register-password-input"><br><br>
+            </section>
+        </div>
     </main>
-
-    <div id="navMenuModal" class="nav-menu-modal hidden">
-        <!-- Modal Content... -->
-    </div>
 </body>
 </html>

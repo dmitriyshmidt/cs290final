@@ -1,0 +1,39 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgray;
+    margin: 0px;
+}
+
+.header-image {
+    width: 200px;
+    height: 200px;
+}
+
+header {
+    background-color: rgb(72, 99, 185);
+    align-items: center;
+    padding: 0px 0px 10px 0px;
+    display: flex;
+}
+
+.content {
+    padding: 20px;
+}
+
+.site-title a {
+    font-family: 'SilkScreen', sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 10px 10px 20px 10px;
+    font-size: 50px;
+}
+
+.account-entry {
+    padding: 10px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+}
+
+.login-title, .register-title {
+    text-decoration: underline;
+}
